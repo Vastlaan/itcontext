@@ -1,7 +1,7 @@
 //About Component on App
 export function triggerEffectAbout(){
 	const about = document.querySelector('.about__quote')
-	const image = document.querySelector('.about__image')
+	const image = document.querySelector('.about__image--box')
 		const list1 = document.querySelector('.about__services--list-1')
 		const list2 = document.querySelector('.about__services--list-2')
 		const list3 = document.querySelector('.about__services--list-3')

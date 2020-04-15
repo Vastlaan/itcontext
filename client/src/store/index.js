@@ -7,7 +7,9 @@ const initialState = {
   displayContactFormConfirmation:false,
   displayAlert:false,
   sendManagerForm:false,
-  setAlertMessage:"Before"
+  setAlertMessage:"Before", //forgot what is this
+  cookiesMessage: true
+
 };
 
 const useGlobal = useGlobalHook(React, initialState, actions);

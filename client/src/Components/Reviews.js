@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import Office from '../img/office.png'
 
-function Reviews({landing}){
+function Reviews(){
 
 	const [currentView, setCurrentView] = useState(1)
 
@@ -76,26 +76,26 @@ function Reviews({landing}){
 			<div className='reviews__background'>
 				<img src={Office} alt='office' />
 			</div>
-			<h1 className='reviews__header'>{landing.reviewsheader}</h1>
+			<h1 className='reviews__header'>Klantwaardering</h1>
 			<div className='reviews__quotes'>
 				<div className='reviews__quotes--quote reviews__quotes--quote-1 '>
 					<p className='reviews__quotes--quote-left'><FaQuoteLeft/></p>
 					<p className='reviews__quotes--quote-text'>
-						{landing.reviewsquote1}
+						Voor ons klein bedrijf is IT Context de juiste oplossing. De website is mooi ontworpen en betaalbaar.
 					</p>
 					<p className='reviews__quotes--quote-right'><FaQuoteRight/></p>
 				</div>
 				<div className='reviews__quotes--quote reviews__quotes--quote-2 '>
 					<p className='reviews__quotes--quote-left'><FaQuoteLeft/></p>
 					<p className='reviews__quotes--quote-text'>
-						{landing.reviewsquote2}
+						Onze webwinkel is snel klaar en boven aan de verwachtingen. Echte aanrader.
 					</p>
 					<p className='reviews__quotes--quote-right'><FaQuoteRight/></p>
 				</div>
 				<div className='reviews__quotes--quote reviews__quotes--quote-3 '>
 					<p className='reviews__quotes--quote-left'><FaQuoteLeft/></p>
 					<p className='reviews__quotes--quote-text'>
-						{landing.reviewsquote3}
+						Top website! Betrouwbaar en beleefd personeel. Plus snel support.
 					</p>
 					<p className='reviews__quotes--quote-right'><FaQuoteRight/></p>
 				</div>

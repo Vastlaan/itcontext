@@ -33,6 +33,7 @@
 			border-radius: 3px;
 			display: flex;
 			flex-direction: column;
+			justify-content: space-between;
 
 			@include respond(l){
 				width:50rem;
@@ -62,6 +63,7 @@
 				}
 			}
 			&-list{
+				flex:1;
 				list-style: none;
 				padding:2rem;
 				&>li{

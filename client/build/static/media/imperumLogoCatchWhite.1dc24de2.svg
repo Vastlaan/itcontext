@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg" version="1.1" viewBox="0 0 500 450" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter5379" x="-.032402" y="-.032402" width="1.0648" height="1.0648" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="1.8632723"/>
+  </filter>
+  <filter id="filter6527" x="-.0636" y="-.0636" width="1.1272" height="1.1272" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="3.6573494"/>
+  </filter>
+  <filter id="filter6694" x="-.010908" y="-.013215" width="1.0218" height="1.0264" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="1.0939502"/>
+  </filter>
+ </defs>
+ <g stroke="#fff" stroke-opacity=".97484">
+  <ellipse cx="249.41" cy="228" rx="200" ry="185" opacity="0" stroke-width="2"/>
+  <g fill="none">
+   <ellipse cx="248.41" cy="225" rx="198.94" ry="198.94" stroke-width="10"/>
+   <ellipse cx="248.86" cy="225.49" rx="175.76" ry="175.76" stroke-width="38.484"/>
+   <g stroke-width="11.019">
+    <g transform="matrix(.7004 .13016 -.12542 .79139 357.04 -65.423)">
+     <path d="m54.707 163.37s248.76-86.136 127.96 32.07c-120.79 118.21-173.08 166.06-173.08 166.06" fill="none" stroke="#fff" stroke-opacity=".97484" stroke-width="11.019"/>
+    </g>
+    <g transform="matrix(-.7004 -.13016 .12542 -.79139 142.96 514.92)" filter="url(#filter6694)">
+     <path d="m54.707 163.37s248.76-86.136 127.96 32.07c-120.79 118.21-173.08 166.06-173.08 166.06" fill="none" stroke="#fff" stroke-opacity=".97484" stroke-width="11.019"/>
+    </g>
+    <g transform="matrix(.22733 .67515 -.75232 .27578 549.62 206.48)">
+     <path d="m54.707 163.37s248.76-86.136 127.96 32.07c-120.79 118.21-173.08 166.06-173.08 166.06" fill="none" stroke="#fff" stroke-opacity=".97484" stroke-width="11.019"/>
+    </g>
+   </g>
+  </g>
+  <rect transform="matrix(.99888 -.047351 -.29207 .9564 0 0)" x="530.97" y="321.18" width="6.4857" height="14.445" fill="#fff" stroke-width="2.7588"/>
+  <g fill="none">
+   <circle transform="matrix(1.7129 0 0 1.793 -174.63 41.35)" cx="247.77" cy="102.22" r="69.007" filter="url(#filter6527)" stroke-width="5"/>
+   <circle transform="matrix(2.0396 0 0 2.0581 609.92 -27.142)" cx="-176.13" cy="122.71" r="69.007" filter="url(#filter5379)" stroke-width="5"/>
+   <g transform="matrix(-.22733 -.67515 .75232 -.27578 -50.226 252.82)" stroke-width="11.019">
+    <path d="m54.707 163.37s248.76-86.136 127.96 32.07c-120.79 118.21-173.08 166.06-173.08 166.06" fill="none" stroke="#fff" stroke-opacity=".97484" stroke-width="11.019"/>
+   </g>
+  </g>
+  <rect transform="matrix(1 -.00096422 -.33612 .94182 0 0)" x="114.62" y="168.79" width="6.4857" height="14.445" fill="#fff" stroke-width="2.7588"/>
+ </g>
+</svg>

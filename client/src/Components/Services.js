@@ -3,7 +3,7 @@ import { MdDevices } from "react-icons/md";
 import { FaSearchengin, FaGlobe } from "react-icons/fa";
 import {showServices} from '../functions'
 
-function Services({landing}) {
+function Services() {
 
 	useEffect(()=>{
 		
@@ -17,31 +17,32 @@ function Services({landing}) {
 				<div className='services__section--icon'>
 					<MdDevices className='services__section--icon-i' />
 				</div>
-				<h1 className='services__section--header'>{landing.servicesheader1}</h1>
+				<h1 className='services__section--header'>Web Design</h1>
 				<p className='services__section--para'>
-					{landing.servicespara1}
+					Met een ervaren team van strategie-, ontwerp- en ontwikkelingsexperts leveren wij digitale oplossingen die uw publiek verrassen en verrukken.
 				</p>
-				<a className='services__section--btn' href="/">{landing.servicesbutton1}</a>
+				<a className='services__section--btn' href='/offert#starter'>Meer</a>
 			</div>
 			<div className='services__seo services__section'>
 				<div className='services__section--icon'>
 					<FaSearchengin className='services__section--icon-i' />
 				</div>
-				<h1 className='services__section--header'>{landing.servicesheader2}</h1>
+				<h1 className='services__section--header'>SEO</h1>
 				<p className='services__section--para'>
-					{landing.servicespara2}		
+					SEO is een verzameling van technieken. Deze technieken zijn gericht op het verbeteren van je website voor de vindbaarheid in zoekmachines zoals Google. 
+					Onze specialisten zorgen op soepel uitvoering zoekmachineoptimalisatie.	
 				</p>
-				<a className='services__section--btn' href="/">{landing.servicesbutton2}</a>
+				<a className='services__section--btn' href='/offert#pro'>Meer</a>
 			</div>
 			<div className='services__marketing services__section'>
 				<div className='services__section--icon'>
 					<FaGlobe className='services__section--icon-i' />
 				</div>
-				<h1 className='services__section--header'>{landing.servicesheader3}</h1>
+				<h1 className='services__section--header'>Online Marketing</h1>
 				<p className='services__section--para'>
-					{landing.servicespara3}
+					We leveren klantgerichte, hoog converterende websites die meer nadruk leggen op het vertellen van verhalen via digitale communicatiestrategie.
 				</p>
-				<a className='services__section--btn' href="/">{landing.servicesbutton3}</a>
+				<a className='services__section--btn' href='/offert#advanced'>Meer</a>
 			</div>
 		</div>
 		)

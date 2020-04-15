@@ -39,7 +39,7 @@ function Footer(){
 						<LogoWhite />
 					</div>
 					<h1 className='footer__contact--data-name'>
-						Imperum
+						IT Context
 					</h1>
 					<h3 className='footer__contact--data-subname'>
 						Future of Web Desing

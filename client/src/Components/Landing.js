@@ -20,11 +20,11 @@ function Landing(){
 	},[])
 	return(
 		<section className='landing'>
-			<Board landing={landing}/>
-			<Services landing={landing} />
-			<Responsive landing={landing} />
-			<Packages landing={landing} />
-			<Reviews landing={landing} />
+			<Board/>
+			<Services />
+			<Responsive />
+			<Packages />
+			<Reviews />
 		</section>
 		)
 }

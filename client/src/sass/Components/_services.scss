@@ -14,6 +14,7 @@
 		display:flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: space-between;
 		filter:contrast(150%);
 
 		&>*{
@@ -50,6 +51,7 @@
 			text-transform: uppercase;
 		}
 		&--para{
+			flex:1;
 			padding:2rem;
 			font-family: $font-poiret;
 			font-size: 1.8rem;

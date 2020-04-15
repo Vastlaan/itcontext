@@ -27,3 +27,8 @@ export const setAlertBefore =(store)=>{
 	const setAlertMessage="Before"
 	return store.setState({setAlertMessage})
 }
+
+export const closeCookies =(store)=>{
+	const cookiesMessage = false;
+	return store.setState({cookiesMessage})
+}

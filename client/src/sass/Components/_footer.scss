@@ -112,7 +112,6 @@
 				transition:all .15s;
 				&:hover{
 					display:block;
-					transform: scale(1.05) translateX(1.5rem);
 					color:$color-primary;
 				}
 				@include respond(xs){
@@ -142,7 +141,6 @@
 				transition:all .3s;
 				&:hover{
 					display:block;
-					transform: scale(1.05) translateX(1.5rem);
 					color:$color-primary;
 				}
 				@include respond(xs){
