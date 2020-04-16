@@ -49,7 +49,7 @@ function Footer(){
 						<li><FaLinkedinIn /></li>
 					</ul>
 					<a href='tel:00310682307051' className='footer__contact--data-phone'><FaPhone className='footer__contact--data-phone-i'/>06 82 30 70 51</a>
-					<a href='mailTo:info@imperum.nl' className='footer__contact--data-email'><FaRegEnvelope className='footer__contact--data-email-i'/>info@imperum.nl</a>
+					<a href='mailTo:info@itcontext.nl' className='footer__contact--data-email'><FaRegEnvelope className='footer__contact--data-email-i'/>info@itcontext.nl</a>
 					<ul className='footer__contact--data-address'>
 						<li><FaMapPin className='footer__contact--data-address-i'/> Oostervenne 397</li>
 						<li>1444XN Purmerend</li>
