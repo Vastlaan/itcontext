@@ -16,7 +16,7 @@ function About(){
 	return(
 		<div className='about'>
 			<div className='about__mission'>
-				<h1 className='about__mission--header'>Wij zijn IT Context</h1>
+				<h1 className='about__mission--header'>Wij zijn <span>IT Context</span></h1>
 				<p className='about__mission--para'>
 					Ervaren Webdevelopers en Online Marketeers
 				</p>

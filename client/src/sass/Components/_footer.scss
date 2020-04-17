@@ -19,7 +19,7 @@
 		height:100%;
 		z-index: 6;
 		background-image: linear-gradient(to bottom, rgba(black,.1), rgba(black,.8));
-		filter:contrast(150%);
+		//filter:contrast(150%);
 	}
 
 	&__contact{
@@ -34,24 +34,9 @@
 			flex:0 0 50%;
 			display:flex;
 			flex-direction: column;
+			align-items: flex-start;
 			padding:0 2rem 2rem 2rem;
 
-
-			&-logo{
-
-				@include respond(xs){
-					margin:0 auto;
-				}
-				
-				&>*{
-					width:20rem;
-					height:20rem;
-
-					margin-top: -2rem;
-					filter:contrast(200%);
-				}
-
-			}
 			&-name{
 				z-index: 9;
 				//margin-top: 5rem;
@@ -111,7 +96,6 @@
 				font-size: 2rem;
 				transition:all .15s;
 				&:hover{
-					display:block;
 					color:$color-primary;
 				}
 				@include respond(xs){
@@ -140,7 +124,6 @@
 				font-size: 2rem;
 				transition:all .3s;
 				&:hover{
-					display:block;
 					color:$color-primary;
 				}
 				@include respond(xs){

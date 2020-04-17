@@ -11,7 +11,7 @@ function Header(){
 				<Birds className='header__background--birds'/>
 			</div>*/}
 			<div className='header__logo' onClick={()=>window.location.href='/'}>
-				<Logo className='header__logo--logo'/>
+				
 				<div className='header__logo--name'>
 					<h1 className='header__logo--main'>IT Context</h1>
 					<h3 className='header__logo--sub'>Future of Web Desing</h3>

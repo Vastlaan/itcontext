@@ -125,6 +125,7 @@ body {
 .header {
   width: 90%;
   margin: 0 auto;
+  padding: 2rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -162,7 +163,7 @@ body {
       font-family: "Rajdhani", sans-serif;
       line-height: 1; }
       .header__logo--name h1 {
-        font-size: 4.5rem;
+        font-size: 5rem;
         background-image: linear-gradient(to right, #46948f, #469468, #94464b);
         background-clip: text;
         color: transparent; }
@@ -489,6 +490,11 @@ body {
         font-weight: 700;
         font-size: 2.5rem;
         border-radius: 5px; }
+      .packages__offert--card-sub {
+        font-family: "Rajdhani", sans-serif;
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 1rem 0; }
     .packages__offert--starter-header {
       background-color: #2a5855; }
     .packages__offert--starter-list li {
@@ -630,8 +636,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 6;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
-    filter: contrast(150%); }
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)); }
   .footer__contact {
     display: flex; }
     @media only screen and (max-width: 26em) {
@@ -642,15 +647,8 @@ body {
       flex: 0 0 50%;
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
       padding: 0 2rem 2rem 2rem; }
-      @media only screen and (max-width: 26em) {
-        .footer__contact--data-logo {
-          margin: 0 auto; } }
-      .footer__contact--data-logo > * {
-        width: 20rem;
-        height: 20rem;
-        margin-top: -2rem;
-        filter: contrast(200%); }
       .footer__contact--data-name {
         z-index: 9;
         font-family: "Rajdhani", sans-serif;
@@ -703,7 +701,6 @@ body {
         font-size: 2rem;
         transition: all .15s; }
         .footer__contact--data-phone:hover {
-          display: block;
           color: #46948f; }
         @media only screen and (max-width: 26em) {
           .footer__contact--data-phone {
@@ -727,7 +724,6 @@ body {
         font-size: 2rem;
         transition: all .3s; }
         .footer__contact--data-email:hover {
-          display: block;
           color: #46948f; }
         @media only screen and (max-width: 26em) {
           .footer__contact--data-email {
@@ -862,13 +858,16 @@ body {
       font-size: 5rem;
       letter-spacing: .3rem;
       color: white;
-      text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+      text-shadow: none;
       margin-top: 0rem; }
+      @media only screen and (max-width: 26em) {
+        .about__mission--header span {
+          display: block; } }
     .about__mission--para {
       font-family: "Rajdhani", sans-serif;
       font-size: 2.5rem;
       color: white;
-      text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3); }
+      text-shadow: none; }
   .about__image {
     width: 100%;
     display: flex;
@@ -929,7 +928,7 @@ body {
       letter-spacing: .2rem;
       padding: 0 2rem;
       color: #2a5855;
-      text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3); }
+      text-shadow: none; }
       @media only screen and (max-width: 40.5em) {
         .about__quote h1 {
           font-size: 2.8rem; } }
@@ -949,7 +948,7 @@ body {
       font-family: "Rajdhani", sans-serif;
       font-size: 2.5rem;
       color: #2a5855;
-      text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+      text-shadow: none;
       padding: 2rem; }
     .about__services--list {
       list-style: none;
@@ -1008,7 +1007,7 @@ body {
     margin: 0 auto;
     font-family: "Rajdhani", sans-serif;
     font-size: 3.5rem;
-    text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+    text-shadow: none;
     text-transform: uppercase;
     color: white; }
   .offert__introduction--rocket {
@@ -1041,7 +1040,7 @@ body {
   .offert__short--para {
     font-family: "Rajdhani", sans-serif;
     font-size: 2.8rem;
-    text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+    text-shadow: none;
     text-transform: uppercase; }
 
 .offert__section {
@@ -1074,7 +1073,7 @@ body {
       font-weight: 700;
       text-align: center;
       letter-spacing: .2rem;
-      text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3); }
+      text-shadow: none; }
       .offert__section--para-text span {
         background-color: #2a5855;
         padding: .3rem 1rem;
@@ -1101,7 +1100,7 @@ body {
     .offert__section--price h3 {
       font-family: "Orbitron", sans-serif;
       font-size: 10rem;
-      text-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3); }
+      text-shadow: none; }
       .offert__section--price h3 sup {
         font-size: 50%; }
   .offert__section--description {

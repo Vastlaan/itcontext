@@ -38,10 +38,10 @@ app.post('/submitContactForm', (req,res)=>{
 	const mailer = nodemailer.createTransport(sgTransport(options))
 
 	const mail = {
-		from: 'no-reply@imperum.com', // sender address
-		to: ['vastlaan@mail.com', `${req.body.email}`], // list of receivers
+		from: 'no-reply@itcontext.com', // sender address
+		to: ['info@michalantczak.com', `${req.body.email}`], // list of receivers
 		subject:
-			"Bevestiging Contact Form Imperum.nl", // Subject line
+			"Bevestiging Contact Form IT Context.nl", // Subject line
 		html: `	<div>
 					<div>
 						<h1>Dank u wel! Wij hebben uw bericht in goede order ontvangt!</h1>	

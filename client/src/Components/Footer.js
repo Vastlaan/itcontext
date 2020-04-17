@@ -35,9 +35,6 @@ function Footer(){
 		<div className='footer'>
 			<div className='footer__contact'>
 				<div className='footer__contact--data'>
-					<div className='footer__contact--data-logo'>
-						<LogoWhite />
-					</div>
 					<h1 className='footer__contact--data-name'>
 						IT Context
 					</h1>
