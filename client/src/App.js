@@ -7,7 +7,7 @@ import Menu from './Components/Menu'
 import Footer from './Components/Footer'
 import About from './Components/About'
 import Offert from './Components/Offert'
-import Login from './Components/Login'
+// import Login from './Components/Login'
 import Cookies from './Components/Cookies'
 import Confirmation from './Components/ConfirmationContactForm'
 import CookiesMessage from './Components/CookiesMessage'
@@ -37,7 +37,7 @@ function App() {
           	<Route path="/about" exact={true} component={About} />
             <Route path="/offert" exact={true} component={Offert} />
             <Route path="/cookies" exact={true} component={Cookies} />
-            <Route path="/manager" exact={true} component={Login} />
+            {/* <Route path="/manager" exact={true} component={Login} /> */}
         </BrowserRouter>
         <Footer />
         {globalState.displayContactFormConfirmation?<Confirmation message={"Succes"}/>:null}

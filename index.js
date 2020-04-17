@@ -1,31 +1,29 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const db = require('./queries.js')
 const keys = require('./config/keys')
 const nodemailer = require('nodemailer')
 const sgTransport = require('nodemailer-sendgrid-transport')
-const authRoutes = require('./authRoutes')
 
 
 const app = express()
 app.use(bodyParser.json())
-//responsible for logging the master user
-app.post('/api/login', authRoutes.login)
-//TEMPORARY create user
-app.get('/createUser', authRoutes.createUser)
-//responsible for retriving text for section About
-app.get('/getLanding', db.getLanding)
-//responsible for retriving text for section About
-app.get('/getAbout', db.getAbout)
-//responsible for retriving text for section Offert
-app.get('/getOffert', db.getOffert)
-//responsible for retriving all tables from database
-app.get('/getAll', db.getAll)
-//responsible for submiting the text changes to database
-app.post('/submitForm', db.submitForm)
+// //responsible for logging the master user
+// app.post('/api/login', authRoutes.login)
+// //TEMPORARY create user
+// app.get('/createUser', authRoutes.createUser)
+// //responsible for retriving text for section About
+// app.get('/getLanding', db.getLanding)
+// //responsible for retriving text for section About
+// app.get('/getAbout', db.getAbout)
+// //responsible for retriving text for section Offert
+// app.get('/getOffert', db.getOffert)
+// //responsible for retriving all tables from database
+// app.get('/getAll', db.getAll)
+// //responsible for submiting the text changes to database
+// app.post('/submitForm', db.submitForm)
 
 //TEMPORARY
-app.get('/createTable', db.createTable)
+// app.get('/createTable', db.createTable)
 
 app.post('/submitContactForm', (req,res)=>{
 	console.log(req.body)
