@@ -1,15 +1,12 @@
 import React from 'react';
 import { MdAccessTime, MdPhone, MdMailOutline } from "react-icons/md";
-import {ReactComponent as Logo} from '../img/imperumLogoCatch.svg'
+
 
 
 function Header(){
 
 	return(
 		<header className='header'>
-			{/*<div className='header__background'>
-				<Birds className='header__background--birds'/>
-			</div>*/}
 			<div className='header__logo' onClick={()=>window.location.href='/'}>
 				
 				<div className='header__logo--name'>
